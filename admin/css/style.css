@@ -1,0 +1,636 @@
+/* ===================== */
+/* ADMIN Panel CSS START */
+/* ===================== */
+
+.login_pg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top: 5rem;
+}
+
+img.logo {
+    width: 130px;
+    height: 130px;
+}
+
+#header-admin {
+    background: #FDB827;
+    padding: 30px 0;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#header-admin .admin_logout_btn {
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #1E90FF;
+}
+
+#admin-content {
+    padding: 20px 0;
+    min-height: 586px;
+    background: #e7e0d4;
+}
+
+#admin-content .admin-heading {
+    font-size: 35px;
+    margin: 0 0 15px;
+}
+
+#admin-content .add-new {
+    color: #fff;
+    background-color: #1E90FF;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    display: block;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+#admin-content .add-new:hover {
+    text-shadow: 0 0 3px #000;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* TABLE */
+
+.tables {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.tables thead {
+    background-color: #333;
+}
+
+.tables thead tr th {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: #ffffff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.tables tbody tr td {
+    border: 2px solid black;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #111;
+    background-color: transparent;
+    padding: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.tables tbody tr:nth-child(2n) {
+    background-color: #Fff;
+}
+
+#admin-content .admin-pagination {
+    margin: 0;
+}
+
+#admin-content .admin-pagination li a {
+    display: block;
+}
+
+#admin-content .content-table tbody td:nth-child(3) {
+    line-height: 20px;
+}
+
+.id,
+.edit,
+.delete {
+    text-align: center;
+}
+
+/* FORM */
+form {
+    width: 555px;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+        0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    font-size: medium;
+}
+
+form input[type=text] label {
+    font-size: medium;
+}
+
+form .form-group {
+    margin: 5px 0;
+}
+
+.alert {
+    margin-bottom: 0px;
+}
+
+/* PROFILE */
+section form {
+    box-shadow: 0px 0px white;
+}
+
+section form input[type=text][readonly] {
+    background-color: azure;
+    height: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+section .card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+        0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+section .doc img {
+    width: 50%;
+    margin: 5px;
+}
+
+section .doc {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section .card-body {
+    border: 2px black solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+        0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+section label {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+section .card-body img {
+    width: 100%;
+}
+
+/* DASHBOARD */
+.dash_Content {
+    height: 60.5vh;
+    background-color: #7b96c9;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 50px;
+}
+
+.dash-box {
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+}
+
+.dash-box:nth-child(1) {
+    background: #D61355;
+}
+
+.dash-box:nth-child(2) {
+    background: #F94A29;
+}
+
+.dash-box:nth-child(3) {
+    background: #FCE22A;
+}
+
+.dash-box:nth-child(4) {
+    background: #F0A04B;
+}
+
+.dash-box:nth-child(5) {
+    background: #EA047E;
+}
+
+.dash-box:nth-child(6) {
+    background: #E96479;
+}
+
+.dash-box:nth-child(7) {
+    background: #913175;
+}
+
+.dash-box:nth-child(8) {
+    background: #7149C6;
+}
+
+.dash-box h5 {
+    background-color: aqua;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+div.dash_Content .dash-box a {
+
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.dash-box a h1 {
+    margin: 30px;
+}
+
+
+/* Pagination  Styling */
+.pagination {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.pagination li a {
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+}
+
+.pagination li a:hover,
+.pagination>li>a:focus {
+    color: #fff;
+    background: #333;
+}
+
+.page_links {
+    background-color: #ccc;
+    font-family: arial, verdana;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 6px;
+    margin: 3px;
+}
+
+#page_a_link {
+    font-size: 12px;
+    border: 1px #000000 solid;
+    color: #000;
+    background-color: #cccccc;
+    padding: 6px;
+    margin: 3px;
+    text-decoration: none;
+}
+
+/* Footer Styling */
+#footer {
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #1e90ff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer span a:hover {
+    text-decoration: underline;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    top: 100px;
+}
+
+tbody img {
+    width: 200px;
+    height: 150px;
+}
+
+/* Index Page */
+.errorMsg {
+    text-align: center;
+}
+
+.topnav {
+    background-color: #FF6363;
+    overflow: hidden;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 7px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* ===================== */
+/* ADMIN Panel CSS END */
+/* ===================== */
+
+
+/* ===================== */
+/*      RESPONSIVE       */
+/* ===================== */
+/* how to make responsive table in 320px */
+/* Add a black background color to the top navigation */
+
+@media only screen and (max-width:992px) {
+    .dash_Content {
+        height: auto;
+    }
+
+    .dash-box {
+        margin: 10px;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .tables thead {
+        display: none;
+    }
+
+    .tables,
+    .tables tbody,
+    .tables tr,
+    .tables td {
+        display: block;
+        width: 100%;
+    }
+
+    .tables tr {
+        margin-bottom: 15px;
+    }
+
+    .tables tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        font-size: 3.1vw;
+    }
+
+    .tables td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* table closed*/
+    #admin-content .add-new {
+        color: #fff;
+        background-color: #1E90FF;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        display: block;
+        transition: all 0.3s;
+        text-decoration: none;
+    }
+
+    #admin-content .col-md-2 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #admin-content .col-md-10 {
+        width: fit-content;
+        float: left;
+    }
+
+    #admin-content .col-md-12 {
+        padding-top: 10px;
+    }
+
+    .login_pg {
+        margin-top: 4rem;
+    }
+
+    form {
+        max-width: 100%;
+        background: #fff;
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 50%), 0px 0px 10px rgb(0 0 0 / 50%);
+    }
+
+    /* Dashboard */
+    .dash_Content {
+        height: auto;
+        background-color: #7b96c9;
+    }
+
+    .dash-box {
+        margin: 10px;
+        margin-left: auto;
+        height: 150px;
+    }
+
+    .dash-box h5 {
+        background-color: aqua;
+        font-weight: 600;
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    #admin-content .admin-heading {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    tbody img {
+        width: 135px;
+        height: 150px;
+        margin: -5px;
+    }
+
+    .tables tbody tr td:first-child {
+        background-color: rgb(251, 102, 102);
+    }
+
+    .tables tbody tr td:last-child {
+        background-color: rgb(40, 143, 239);
+    }
+
+    #header-admin {
+        background: #FDB827;
+        padding: 30px 0;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    img.logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logout_cont a {
+        font-size: 10px;
+    }
+
+    #header-admin .admin_logout_btn {
+        margin: 10px 0;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: #1E90FF;
+    }
+
+    section form {
+        box-shadow: 0px 0px white;
+    }
+
+    section form input[type=text][readonly] {
+        font-size: 1.5rem;
+    }
+
+    section .doc {
+        margin: 5px;
+    }
+
+    section .card-body {
+        border: 2px black solid;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5),
+            0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+
+    section>label {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    section .card-primary img {
+        width: 100%;
+    }
+
+    #view_Teacher label {
+        font-size: 15px;
+        margin: 10px auto;
+    }
+
+    #view_Teacher input[type=text][readonly] {
+        font-size: medium;
+    }
+
+    #view_Teacher .doc {
+        margin: 5px auto;
+    }
+
+    #view_Teacher img {
+        width: 100%;
+    }
+
+    #view_Teacher .doc img {
+        width: 100%;
+        margin: 5px auto;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .topnav a:not(.active) {
+        display: none;
+    }
+
+    .topnav .active {
+        display: block;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:437px) {
+    section form input[type=text][readonly] {
+        background-color: azure;
+        height: 50px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .dash_Content {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+}
